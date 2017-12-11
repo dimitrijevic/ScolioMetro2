@@ -19,10 +19,10 @@ namespace ScolioMetro.Helpers
         }
 
         #region Setting Constants
-        const string UserIdKey = "userid";
+        const string UserIdKey = "userid"; // TODO: See this prior to production!!!
         static readonly string UserIdDefault = string.Empty;
 
-        const string AuthTokenKey = "authtoken";
+        const string AuthTokenKey = "authtoken"; // TODO: See this prior to production!!!
         static readonly string AuthTokenDefault = string.Empty;
         #endregion
 
